@@ -1,0 +1,1 @@
+select user_id, zip_code from demo_users;

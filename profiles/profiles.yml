@@ -1,0 +1,13 @@
+my_dbt_project:
+  outputs:
+    dev:
+      account: JNFNWAK-GQ94915
+      database: SNOWFLAKE_SAMPLE_DATA
+      password: TarKia!16116116
+      role: ACCOUNTADMIN
+      schema: TPCH_SF1
+      threads: 6
+      type: snowflake
+      user: jitener116
+      warehouse: PC_DBT_WH
+  target: dev
